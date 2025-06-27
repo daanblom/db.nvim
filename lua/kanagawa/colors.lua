@@ -1,13 +1,13 @@
 ---@class PaletteColors
 local palette = {
 
-    -- Bg Shades
+    -- Bg Shades1
     sumiInk0 = "#000000",
-    sumiInk1 = "#111111",
-    sumiInk2 = "#222222",
-    sumiInk3 = "#333333",
-    sumiInk4 = "#444444",
-    sumiInk5 = "#555555",
+    sumiInk1 = "#000000",
+    sumiInk2 = "#000000",
+    sumiInk3 = "#000000",
+    sumiInk4 = "#000000",
+    sumiInk5 = "#000000",
     sumiInk6 = "#888888", --fg
 
     -- Popup and Floats
