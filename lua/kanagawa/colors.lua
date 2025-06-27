@@ -2,13 +2,13 @@
 local palette = {
 
     -- Bg Shades
-    sumiInk0 = "#16161D",
-    sumiInk1 = "#181820",
-    sumiInk2 = "#1a1a22",
-    sumiInk3 = "#1F1F28",
-    sumiInk4 = "#2A2A37",
-    sumiInk5 = "#363646",
-    sumiInk6 = "#54546D", --fg
+    sumiInk0 = "#000000",
+    sumiInk1 = "#111111",
+    sumiInk2 = "#222222",
+    sumiInk3 = "#333333",
+    sumiInk4 = "#444444",
+    sumiInk5 = "#555555",
+    sumiInk6 = "#888888", --fg
 
     -- Popup and Floats
     waveBlue1 = "#223249",
