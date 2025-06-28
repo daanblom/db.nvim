@@ -1,15 +1,5 @@
 <p align="center">
-  <h2 align="center">🌊 KANAGAWA.nvim 🌊</h2>
-</p>
-
-<p align="center">
-  <img src="kanagawa@2x.png" width="500" >
-</p>
-
-<p align="center">NeoVim dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai.</p>
-
-<p align="center">
-  <h2 align="center"><img alt="Preview" src="https://user-images.githubusercontent.com/36300441/222913073-22b95f11-8c08-4b2b-867c-19072c921de1.png" width=1000></h2>
+  <h2 align="center">db.nvim</h2>
 </p>
 
 [![W3C](https://img.shields.io/badge/WCAG_2.1_|_AA-756891?logo=w3c&logoColor=fff&style=for-the-badge)](https://www.w3.org/TR/WCAG21/#contrast-minimum)
