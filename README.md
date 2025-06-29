@@ -14,7 +14,7 @@
 Download with your favorite package manager.
 
 ```lua
-use "rebelot/kanagawa.nvim"
+use "daanblom/db.nvim"
 ```
 
 ## Requirements
@@ -28,11 +28,11 @@ use "rebelot/kanagawa.nvim"
 As simple as writing (pasting)
 
 ```vim
-colorscheme kanagawa
+colorscheme db:
 ```
 
 ```lua
-vim.cmd("colorscheme kanagawa")
+vim.cmd("colorscheme db:")
 ```
 
 ## Configuration
@@ -41,7 +41,7 @@ There is no need to call setup if you are ok with the defaults.
 
 ```lua
 -- Default options:
-require('kanagawa').setup({
+require('db:').setup({
     compile = false,             -- enable compiling the colorscheme
     undercurl = true,            -- enable undercurls
     commentStyle = { italic = true },
@@ -67,7 +67,7 @@ require('kanagawa').setup({
 })
 
 -- setup must be called before loading
-vim.cmd("colorscheme kanagawa")
+vim.cmd("colorscheme db:")
 ```
 
 **_NOTE 1:_** If you enable compilation, make sure to run `:KanagawaCompile` command every time you make changes to your config.
@@ -79,11 +79,11 @@ vim.cmd("colorscheme kanagawa")
 :KanagawaCompile
 ```
 
-**_NOTE 2:_** Kanagawa adjusts to the value of some options. Make sure that the options `'laststatus'` and `'cmdheight'` are set **_before_** calling `setup`.
+**_NOTE 2:_** db: adjusts to the value of some options. Make sure that the options `'laststatus'` and `'cmdheight'` are set **_before_** calling `setup`.
 
 ## Themes
 
-Kanagawa comes in three variants:
+db: comes in three variants:
 
 - `wave` the default heart-warming theme,
 - `dragon` for those late-night sessions
@@ -97,20 +97,20 @@ Themes can be changed in three ways:
 - Loading the colorscheme directly with:
 
   ```lua
-  vim.cmd("colorscheme kanagawa-wave")
-  vim.cmd("colorscheme kanagawa-dragon")
-  vim.cmd("colorscheme kanagawa-lotus")
+  vim.cmd("colorscheme db:-wave")
+  vim.cmd("colorscheme db:-dragon")
+  vim.cmd("colorscheme db:-lotus")
   ```
 
   or
 
   ```lua
-  require("kanagawa").load("wave")
+  require("db:").load("wave")
   ```
 
 ## Customization
 
-In kanagawa, there are _two_ kinds of colors: `PaletteColors` and `ThemeColors`;
+In db:, there are _two_ kinds of colors: `PaletteColors` and `ThemeColors`;
 `PaletteColors` are defined directly as RGB Hex strings, and have arbitrary names
 that recall their actual color. Conversely, `ThemeColors` are named and grouped _semantically_
 on the basis of their actual function.
@@ -119,11 +119,11 @@ In short, a `palette` defines all the available colors, while a `theme` maps the
 to specific `ThemeColors` and the same palette color may be assigned to multiple theme colors.
 
 You can change _both_ theme or palette colors using `config.colors`.
-All the palette color names can be found [here](lua/kanagawa/colors.lua),
-while their usage by each theme can be found [here](lua/kanagawa/themes.lua).
+All the palette color names can be found [here](lua/db:/colors.lua),
+while their usage by each theme can be found [here](lua/db:/themes.lua).
 
 ```lua
-require('kanagawa').setup({
+require('db:').setup({
     ...,
     colors = {
         palette = {
@@ -160,7 +160,7 @@ You can also conveniently add/modify any `hlgroups` using the `config.overrides`
 Supported keywords are the same for `:h nvim_set_hl` `{val}` parameter.
 
 ```lua
-require('kanagawa').setup({
+require('db:').setup({
     ...,
     overrides = function(colors)
         return {
@@ -268,7 +268,7 @@ This immitates a style of diagnostic messages seen, for example, in [tokyonight.
 overrides = function(colors)
   local theme = colors.theme
   local makeDiagnosticColor = function(color)
-    local c = require("kanagawa.lib.color")
+    local c = require("db:.lib.color")
     return { fg = color, bg = c(color):blend(theme.ui.bg, 0.95):to_hex() }
   end
 
@@ -287,12 +287,12 @@ end
 
 ```lua
 -- Get the colors for the current theme
-local colors = require("kanagawa.colors").setup()
+local colors = require("db:.colors").setup()
 local palette_colors = colors.palette
 local theme_colors = colors.theme
 
 -- Get the colors for a specific theme
-local wave_colors = require("kanagawa.colors").setup({ theme = 'wave' })
+local wave_colors = require("db:.colors").setup({ theme = 'wave' })
 ```
 
 ### Terminal integration
@@ -302,14 +302,14 @@ for the Kitty terminal emulator.
 
 ```lua
 vim.api.nvim_create_autocmd("ColorScheme", {
-    pattern = "kanagawa",
+    pattern = "db:",
     callback = function()
         if vim.o.background == "light" then
             vim.fn.system("kitty +kitten themes Kanagawa_light")
         elseif vim.o.background == "dark" then
             vim.fn.system("kitty +kitten themes Kanagawa_dragon")
         else
-            vim.fn.system("kitty +kitten themes Kanagawa")
+            vim.fn.system("kitty +kitten themes db:")
         end
     end,
 })
