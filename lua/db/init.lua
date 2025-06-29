@@ -80,7 +80,7 @@ function M.compile()
     end
 end
 
-vim.api.nvim_create_user_command("dbCompile", function()
+vim.api.nvim_create_user_command("DbCompile", function()
     for mod, _ in pairs(package.loaded) do
         if mod:match("^db%.") then
             package.loaded[mod] = nil
