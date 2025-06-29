@@ -11,8 +11,8 @@ local palette = {
     sumiInk6 = "#333333", --fg
 
     -- Popup and Floats
-    waveBlue1 = "#2B3328",
-    waveBlue2 = "#29443c",
+    waveBlue1 = "#000000",
+    waveBlue2 = "#000000",
 
     -- Diff and Git
     winterGreen = "#2B3328",
@@ -24,8 +24,8 @@ local palette = {
     autumnYellow = "#DCA561",
 
     -- Diag
-    samuraiRed = "#E82424",
-    roninYellow = "#FF9E3B",
+    samuraiRed = "#d22110",
+    roninYellow = "#dd9E55",
     waveAqua1 = "#6A9589",
     dragonBlue = "#658594",
 
