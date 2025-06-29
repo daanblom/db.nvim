@@ -70,13 +70,13 @@ require('db:').setup({
 vim.cmd("colorscheme db:")
 ```
 
-**_NOTE 1:_** If you enable compilation, make sure to run `:KanagawaCompile` command every time you make changes to your config.
+**_NOTE 1:_** If you enable compilation, make sure to run `:DbCompile` command every time you make changes to your config.
 
 ```vim
 " 1. Modify your config
 " 2. Restart nvim
 " 3. Run this command:
-:KanagawaCompile
+:DbCompile
 ```
 
 **_NOTE 2:_** db: adjusts to the value of some options. Make sure that the options `'laststatus'` and `'cmdheight'` are set **_before_** calling `setup`.
@@ -294,27 +294,6 @@ local theme_colors = colors.theme
 -- Get the colors for a specific theme
 local wave_colors = require("db:.colors").setup({ theme = 'wave' })
 ```
-
-### Terminal integration
-
-The following example provides a snippet to automatically change the theme
-for the Kitty terminal emulator.
-
-```lua
-vim.api.nvim_create_autocmd("ColorScheme", {
-    pattern = "db:",
-    callback = function()
-        if vim.o.background == "light" then
-            vim.fn.system("kitty +kitten themes Kanagawa_light")
-        elseif vim.o.background == "dark" then
-            vim.fn.system("kitty +kitten themes Kanagawa_dragon")
-        else
-            vim.fn.system("kitty +kitten themes db:")
-        end
-    end,
-})
-```
-
 ## Accessibility
 
 The colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 | Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum).
