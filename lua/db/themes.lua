@@ -109,7 +109,7 @@ return {
                 whitespace = palette.sumiInk6,
 
                 bg_search  = palette.waveBlue2,
-                bg_visual  = palette.waveBlue1,
+                bg_visual  = palette.sumiInk7,
 
                 pmenu      = {
                     fg       = palette.fujiWhite,

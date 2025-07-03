@@ -9,9 +9,10 @@ local palette = {
     sumiInk4 = "#000000",
     sumiInk5 = "#000000",
     sumiInk6 = "#333333", --fg
+    sumiInk7 = "#111111", --visual selection
 
     -- Popup and Floats
-    waveBlue1 = "#cccccc",
+    waveBlue1 = "#000000",
     waveBlue2 = "#000000",
 
     -- Diff and Git
