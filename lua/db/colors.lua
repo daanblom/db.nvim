@@ -11,8 +11,8 @@ local palette = {
     sumiInk6 = "#333333", --fg
 
     -- Popup and Floats
-    waveBlue1 = "#00ff00",
-    waveBlue2 = "#0000ff",
+    waveBlue1 = "#cccccc",
+    waveBlue2 = "#000000",
 
     -- Diff and Git
     winterGreen = "#2B3328",
