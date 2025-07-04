@@ -1,1 +1,1 @@
-lua require('db').load().load "lotus"
+lua require('db').load("lotus")
