@@ -306,7 +306,7 @@ return {
                 fg_reverse = palette.lotusGray,
 
                 bg_dim     = palette.lotusWhite1,
-                bg_gutter  = palette.lotusWhite4,
+                bg_gutter  = palette.lotusWhite1,
 
                 bg_m3      = palette.lotusWhite0,
                 bg_m2      = palette.lotusWhite1,
