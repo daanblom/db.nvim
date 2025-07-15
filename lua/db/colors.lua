@@ -9,7 +9,7 @@ local palette = {
     sumiInk4 = "#000000",
     sumiInk5 = "#000000",
     sumiInk6 = "#233233", --fg
-    sumiInk7 = "#233255", --visual selection
+    sumiInk7 = "#234245", --visual selection
 
     -- Popup and Floats
     waveBlue1 = "#000000",
@@ -78,8 +78,7 @@ local palette = {
     dragonAqua = "#8ea4a2",
     dragonAsh = "#737c73",
     dragonTeal = "#949fb5",
-    dragonYellow = "#c4b28a",--"#a99c8b",
-    -- "#8a9aa3",
+    dragonYellow = "#c4b28a",
 
     lotusInk1 = "#545464",
     lotusInk2 = "#43436c",
