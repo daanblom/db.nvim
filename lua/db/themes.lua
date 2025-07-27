@@ -238,9 +238,9 @@ return {
             syn = {
                 string     = palette.dragonGreen2,
                 variable   = "none",
-                number     = palette.lotusPink,
-                constant   = palette.lotusOrange,
-                identifier = palette.lotusOrange2,
+                number     = palette.dragonPink,
+                constant   = palette.dragonOrange,
+                identifier = palette.dragonOrange,
                 parameter  = palette.dragonGray,
                 fun        = palette.lotusViolet2,
                 statement  = palette.lotusBlue5,
