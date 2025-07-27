@@ -195,7 +195,7 @@ return {
     end,
     ---@param palette PaletteColors
     ---@return ThemeColors
-    dragon = function(palette)
+    dim = function(palette)
         return {
             ui = {
                 fg         = palette.dragonWhite,
@@ -240,11 +240,11 @@ return {
                 variable   = "none",
                 number     = palette.dragonPink,
                 constant   = palette.dragonOrange,
-                identifier = palette.dragonYellow,
+                identifier = palette.dragonOrange,
                 parameter  = palette.dragonGray,
-                fun        = palette.dragonBlue2,
-                statement  = palette.dragonViolet,
-                keyword    = palette.dragonViolet,
+                fun        = palette.lotusViolet2,
+                statement  = palette.lotusBlue5,
+                keyword    = palette.lotusViolet3,
                 operator   = palette.dragonRed,
                 preproc    = palette.dragonRed,
                 type       = palette.dragonAqua,
@@ -342,109 +342,7 @@ return {
                 variable   = "none",
                 number     = palette.lotusPink,
                 constant   = palette.lotusOrange,
-                identifier = palette.lotusYellow,
-                parameter  = palette.lotusBlue5,
-                fun        = palette.lotusBlue4,
-                statement  = palette.lotusViolet4,
-                keyword    = palette.lotusViolet4,
-                operator   = palette.lotusYellow2,
-                preproc    = palette.lotusRed,
-                type       = palette.lotusAqua,
-                regex      = palette.lotusYellow2,
-                deprecated = palette.lotusGray3,
-                comment    = palette.lotusGray3,
-                punct      = palette.lotusTeal1,
-                special1   = palette.lotusTeal2,
-                special2   = palette.lotusRed,
-                special3   = palette.lotusRed,
-            },
-            vcs = {
-                added   = palette.lotusGreen2,
-                removed = palette.lotusRed2,
-                changed = palette.lotusYellow3,
-            },
-            diff = {
-                add    = palette.lotusGreen3,
-                delete = palette.lotusRed4,
-                change = palette.lotusCyan,
-                text   = palette.lotusYellow4,
-            },
-            diag = {
-                error   = palette.lotusRed3,
-                ok      = palette.lotusGreen,
-                warning = palette.lotusOrange2,
-                info    = palette.lotusTeal3,
-                hint    = palette.lotusAqua2,
-            },
-            term = {
-                palette.sumiInk3, -- black
-                palette.lotusRed, -- red
-                palette.lotusGreen, -- green
-                palette.lotusYellow, -- yellow
-                palette.lotusBlue4, -- blue
-                palette.lotusPink, -- magenta
-                palette.lotusAqua, -- cyan
-                palette.lotusInk1, -- white
-                palette.lotusGray3 , -- bright black
-                palette.lotusRed2, -- bright red
-                palette.lotusGreen2, -- bright green
-                palette.lotusYellow2, -- bright yellow
-                palette.lotusTeal2, -- bright blue
-                palette.lotusViolet4, -- bright magenta
-                palette.lotusAqua2, -- bright cyan
-                palette.lotusInk2, -- bright white
-                palette.lotusOrange2, -- extended color 1
-                palette.lotusRed3, -- extended color 2
-            },
-        }
-    end,
-    ---@param palette PaletteColors
-    ---@return ThemeColors
-    night = function(palette)
-        return {
-            ui = {
-                fg         = palette.lotusInk1,
-                fg_dim     = palette.lotusInk2,
-                fg_reverse = palette.lotusGray,
-
-                bg_dim     = palette.lotusWhite1,
-                bg_gutter  = palette.lotusWhite1,
-
-                bg_m3      = palette.lotusWhite0,
-                bg_m2      = palette.lotusWhite1,
-                bg_m1      = palette.lotusWhite2,
-                bg         = palette.lotusWhite3,
-                bg_p1      = palette.lotusWhite4,
-                bg_p2      = palette.lotusWhite5,
-
-                nontext    = palette.lotusViolet1,
-                whitespace = palette.lotusViolet1,
-                special    = palette.lotusViolet2,
-
-                bg_visual  = palette.lotusViolet3,
-                bg_search  = palette.lotusBlue2,
-
-                pmenu      = {
-                    fg       = palette.lotusInk2,
-                    fg_sel   = "none", -- This is important to make highlights pass-through
-                    bg       = palette.lotusBlue1,
-                    bg_sel   = palette.lotusBlue3,
-                    bg_sbar  = palette.lotusBlue1,
-                    bg_thumb = palette.lotusBlue2,
-                },
-                float      = {
-                    fg        = palette.lotusInk2,
-                    bg        = palette.lotusWhite0,
-                    fg_border = palette.lotusGray2,
-                    bg_border = palette.lotusWhite0,
-                },
-            },
-            syn = {
-                string     = palette.lotusGreen,
-                variable   = "none",
-                number     = palette.lotusPink,
-                constant   = palette.lotusOrange,
-                identifier = palette.lotusYellow,
+                identifier = palette.lotusOrange,
                 parameter  = palette.lotusBlue5,
                 fun        = palette.lotusBlue4,
                 statement  = palette.lotusViolet4,
