@@ -217,7 +217,7 @@ return {
                 whitespace = palette.sumiInk6,
 
                 bg_search  = palette.waveBlue2,
-                bg_visual  = palette.sumiInk7,
+                bg_visual  = palette.winterGreen,
 
                 pmenu      = {
                     fg       = palette.fujiWhite,
