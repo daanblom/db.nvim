@@ -240,7 +240,7 @@ return {
                 variable   = "none",
                 number     = palette.dragonPink,
                 constant   = palette.dragonPink,
-                identifier = palette.dragonPink,
+                identifier = palette.dragonOrange,
                 parameter  = palette.dragonGray,
                 fun        = palette.lotusViolet2,
                 statement  = palette.lotusBlue5,
