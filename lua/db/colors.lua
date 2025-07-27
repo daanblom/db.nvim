@@ -8,8 +8,8 @@ local palette = {
     sumiInk3 = "#000000",
     sumiInk4 = "#000000",
     sumiInk5 = "#000000",
-    sumiInk6 = "#233233", --fg
-    sumiInk7 = "#234245", --visual selection
+    sumiInk6 = "#233233",
+    sumiInk7 = "#234245",
 
     -- Popup and Floats
     waveBlue1 = "#000000",
@@ -41,8 +41,7 @@ local palette = {
     springViolet1 = "#938AA9",
     springViolet2 = "#9CABCA",
     springBlue = "#7FB4CA",
-    lightBlue = "#A3D4D5", -- unused yet
-    waveAqua2 = "#7AA89F", -- improve lightness: desaturated greenish Aqua
+    waveAqua2 = "#7AA89F",
 
     springGreen = "#98BB6C",
     boatYellow1 = "#938056",
