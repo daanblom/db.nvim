@@ -239,7 +239,7 @@ return {
                 string     = palette.dragonGreen2,
                 variable   = "none",
                 number     = palette.dragonPink,
-                constant   = palette.dragonPink,
+                constant   = palette.dragonOrange,
                 identifier = palette.dragonOrange,
                 parameter  = palette.dragonGray,
                 fun        = palette.lotusViolet2,
