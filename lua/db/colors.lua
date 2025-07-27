@@ -20,15 +20,15 @@ local palette = {
     winterYellow = "#49443C",
     winterRed = "#43242B",
     winterBlue = "#252535",
-    autumnGreen = "#76946A",
-    autumnRed = "#C34043",
-    autumnYellow = "#DCA561",
+    autumnGreen = "#80844a",
+    autumnRed = "#822617",
+    autumnYellow = "#c6a05c",
 
     -- Diag
-    samuraiRed = "#d22110",
-    roninYellow = "#dd9E55",
-    waveAqua1 = "#6A9589",
-    dragonBlue = "#658594",
+    samuraiRed = "#c53a23",
+    roninYellow = "#aa7e2e",
+    waveAqua1 = "#4e8ca2",
+    dragonBlue = "#39758a",
 
     -- Fg and Comments
     oldWhite = "#C8C093",
@@ -43,7 +43,7 @@ local palette = {
     springBlue = "#7FB4CA",
     waveAqua2 = "#7AA89F",
 
-    springGreen = "#98BB6C",
+    springGreen = "#a6ac60",
     boatYellow1 = "#938056",
     boatYellow2 = "#C0A36E",
     carpYellow = "#E6C384",
@@ -52,7 +52,7 @@ local palette = {
     waveRed = "#E46876",
     peachRed = "#FF5D62",
     surimiOrange = "#FFA066",
-    katanaGray = "#717C7C",
+    katanaGray = "#879b9d",
 
     dragonBlack0 = "#0d0c0c",
     dragonBlack1 = "#12120f",
