@@ -239,7 +239,7 @@ function M.setup(colors, config)
         IndentBlanklineContextStart = { sp = theme.ui.special, underline = true },
         IblIndent = { fg = theme.ui.whitespace },
         IblWhitespace = { fg = theme.ui.whitespace },
-        IblScope = { fg = theme.ui.special },
+        IblScope = { fg = theme.ui.fg_dim },
         -- Lazy
         LazyProgressTodo = { fg = theme.ui.nontext },
 
