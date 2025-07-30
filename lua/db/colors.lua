@@ -5,10 +5,10 @@ local palette = {
     leaves = "#94A63A",
     moss = "#637322",
     sky = "#778c76",
-    red = "#5e200c",
+    red = "#882505",
     earth = "#81731d",
     shield = "#5d9664",
-    flower = "#501f3c",
+    flower = "#7b2246",
 
     -- Bg Shades1
     sumiInk0 = "#000000",
