@@ -4,10 +4,10 @@ local palette = {
     -- KC shades
     leaves = "#94A63A",
     moss = "#637322",
-    sky = "#43c9a7",
+    sky = "#12565f",
     red = "#882505",
     earth = "#a38c0b",
-    shield = "#12565f",
+    shield = "#43c9a7",
     flower = "#7b2246",
 
     -- Bg Shades1
