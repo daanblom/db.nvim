@@ -142,10 +142,10 @@ local M = {}
 function M.setup(opts)
     opts = opts or {}
     local override_colors = opts.colors or require("db").config.colors
-    local theme = opts.theme or require("db")._CURRENT_THEME -- WARN: this fails if called before kanagawa.load()
+    local theme = opts.theme or require("db")._CURRENT_THEME -- WARN: this fails if called before db.load()
 
     if not theme then
-        error("db.colors.setup(): Unable to infer `theme`. Either specify a theme or call this function after ':colorscheme kanagawa'")
+        error("db.colors.setup(): Unable to infer `theme`. Either specify a theme or call this function after ':colorscheme db'")
     end
 
     -- Add to and/or override palette_colors
