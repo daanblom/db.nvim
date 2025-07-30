@@ -398,4 +398,107 @@ return {
             },
         }
     end,
+    ---@param palette PaletteColors
+    ---@return ThemeColors
+    KC = function(palette)
+        return {
+            ui = {
+                fg         = palette.fujiWhite,
+                fg_dim     = palette.oldWhite,
+                fg_reverse = palette.waveBlue1,
+
+                bg_dim     = palette.sumiInk1,
+                bg_gutter  = palette.sumiInk4,
+
+                bg_m3      = palette.sumiInk0,
+                bg_m2      = palette.sumiInk1,
+                bg_m1      = palette.sumiInk2,
+                bg         = palette.sumiInk3,
+                bg_p1      = palette.sumiInk4,
+                bg_p2      = palette.sumiInk5,
+
+                special    = palette.flower,
+                nontext    = palette.sumiInk6,
+                whitespace = palette.sumiInk6,
+
+                bg_search  = palette.waveBlue2,
+                bg_visual  = palette.winterGreen,
+
+                pmenu      = {
+                    fg       = palette.fujiWhite,
+                    fg_sel   = "none",
+                    bg       = palette.waveBlue1,
+                    bg_sel   = palette.waveBlue2,
+                    bg_thumb = palette.waveBlue2,
+                    bg_sbar  = palette.waveBlue1,
+                },
+
+                float      = {
+                    fg        = palette.oldWhite,
+                    bg        = palette.dragonBlack0,
+                    fg_border = palette.sumiInk6,
+                    bg_border = palette.dragonBlack0,
+                },
+            },
+            syn = {
+                string     = palette.dragonGreen2,
+                variable   = "none",
+                number     = palette.dragonPink,
+                constant   = palette.dragonOrange,
+                identifier = palette.dragonOrange,
+                parameter  = palette.dragonGray,
+                fun        = palette.lotusViolet2,
+                statement  = palette.lotusBlue5,
+                keyword    = palette.lotusViolet3,
+                operator   = palette.dragonTeal,
+                preproc    = palette.dragonPink,
+                type       = palette.dragonAqua,
+                regex      = palette.dragonRed,
+                deprecated = palette.katanaGray,
+                punct      = palette.dragonGray2,
+                comment    = palette.dragonAsh,
+                special1   = palette.dragonTeal,
+                special2   = palette.dragonRed,
+                special3   = palette.dragonRed,
+            },
+            diag = {
+                error   = palette.samuraiRed,
+                ok      = palette.springGreen,
+                warning = palette.roninYellow,
+                info    = palette.dragonBlue,
+                hint    = palette.waveAqua1,
+            },
+            diff = {
+                add    = palette.winterGreen,
+                delete = palette.winterRed,
+                change = palette.winterBlue,
+                text   = palette.winterYellow,
+            },
+            vcs = {
+                added   = palette.autumnGreen,
+                removed = palette.autumnRed,
+                changed = palette.autumnYellow,
+            },
+            term = {
+                palette.dragonBlack0, -- black
+                palette.dragonRed, -- red
+                palette.dragonGreen2, -- green
+                palette.dragonYellow, -- yellow
+                palette.dragonBlue2, -- blue
+                palette.dragonPink, -- magenta
+                palette.dragonAqua, -- cyan
+                palette.oldWhite, -- white
+                palette.dragonGray, -- bright black
+                palette.waveRed, -- bright red
+                palette.dragonGreen, -- bright green
+                palette.carpYellow, -- bright yellow
+                palette.springBlue, -- bright blue
+                palette.springViolet1, -- bright magenta
+                palette.waveAqua2, -- bright cyan
+                palette.dragonWhite, -- bright white
+                palette.dragonOrange, -- extended color 1
+                palette.dragonOrange2, -- extended color 2
+            },
+        }
+    end,
 }

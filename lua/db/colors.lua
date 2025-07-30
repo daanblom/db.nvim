@@ -1,6 +1,15 @@
 ---@class PaletteColors
 local palette = {
 
+    -- KC shades
+    leaves = "#94A63A",
+    moss = "#637322",
+    sky = "#778c76",
+    red = "#5e200c",
+    earth = "#81731d",
+    shield = "#5d9664",
+    flower = "#501f3c",
+
     -- Bg Shades1
     sumiInk0 = "#000000",
     sumiInk1 = "#000000",
