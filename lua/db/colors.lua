@@ -1,6 +1,40 @@
 ---@class PaletteColors
 local palette = {
 
+    -- kitty
+    -- black
+    color0 = "#000000",
+    color8 = "#555555",
+
+    -- red
+    color1 = "#c53a23",
+    color9 = "#822617",
+
+    -- green
+    color2 = "#a6ac60",
+    color10 = "#80844a",
+
+    -- yellow
+    color3 = "#c6a05c",
+    color11 = "#aa7e2e",
+
+    -- blue
+    color4 = "#bbd5d8",
+    color12 = "#879b9d",
+
+    -- magenta
+    color5 = "#A09CAC",
+    color13 = "#766B90",
+
+    -- cyan
+    color6 = "#4E8CA2",
+    color14 = "#39758a",
+
+    -- white
+    color7 = "#ebefd9",
+    color15 = "#ebefd9",
+
+
     -- KC shades
     leaves = "#94A63A",
     moss = "#637322",
