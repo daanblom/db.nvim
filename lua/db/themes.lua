@@ -449,7 +449,7 @@ return {
                 parameter  = palette.colorKC9,
                 fun        = palette.colorKC10,
                 statement  = palette.colorKC4,
-                keyword    = palette.colorKC8,
+                keyword    = palette.colorKC2,
                 operator   = palette.colorKC2,
                 preproc    = palette.colorKC5,
                 type       = palette.colorKC4,
