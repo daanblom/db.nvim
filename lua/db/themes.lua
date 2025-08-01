@@ -480,22 +480,22 @@ return {
                 changed = palette.autumnYellow,
             },
             term = {
-                palette.dragonBlack0, -- black
-                palette.dragonRed, -- red
-                palette.dragonGreen2, -- green
-                palette.dragonYellow, -- yellow
-                palette.dragonBlue2, -- blue
-                palette.dragonPink, -- magenta
-                palette.dragonAqua, -- cyan
-                palette.oldWhite, -- white
-                palette.dragonGray, -- bright black
-                palette.waveRed, -- bright red
-                palette.dragonGreen, -- bright green
-                palette.carpYellow, -- bright yellow
-                palette.springBlue, -- bright blue
-                palette.springViolet1, -- bright magenta
-                palette.waveAqua2, -- bright cyan
-                palette.dragonWhite, -- bright white
+                palette.color0, -- black
+                palette.color1, -- red
+                palette.color2, -- green
+                palette.color3, -- yellow
+                palette.color4, -- blue
+                palette.color5, -- magenta
+                palette.color6, -- cyan
+                palette.color7, -- white
+                palette.color8, -- bright black
+                palette.color9, -- bright red
+                palette.color10, -- bright green
+                palette.color11, -- bright yellow
+                palette.color12, -- bright blue
+                palette.color13, -- bright magenta
+                palette.color14, -- bright cyan
+                palette.color15, -- bright white
                 palette.dragonOrange, -- extended color 1
                 palette.dragonOrange2, -- extended color 2
             },
