@@ -450,7 +450,7 @@ return {
                 fun        = palette.color3,
                 statement  = palette.color6,
                 keyword    = palette.leaves,
-                operator   = palette.color8,
+                operator   = palette.flower,
                 preproc    = palette.color12,
                 type       = palette.color4,
                 regex      = palette.color11,
