@@ -12,6 +12,7 @@ local palette = {
     colorKC8 = "#0A0904",
     colorKC9 = "#2B320F",
     colorKC10 = "#434E16",
+    colorKC11 = "#114800",
 
     -- kitty
     -- black
