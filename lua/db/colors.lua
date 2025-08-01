@@ -1,6 +1,18 @@
 ---@class PaletteColors
 local palette = {
 
+  --bg1 palette
+    colorKC1 = "#16170B",
+    colorKC2 = "#94A63A",
+    colorKC3 = "#505E43",
+    colorKC4 = "#393D2C",
+    colorKC5 = "#637322",
+    colorKC6 = "#202311",
+    colorKC7 = "#909263",
+    colorKC8 = "#0A0904",
+    colorKC9 = "#2B320F",
+    colorKC10 = "#434E16",
+
     -- kitty
     -- black
     color0 = "#000000",

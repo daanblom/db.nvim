@@ -441,25 +441,25 @@ return {
                 },
             },
             syn = {
-                string     = palette.color2,
+                string     = palette.colorKC3,
                 variable   = "none",
-                number     = palette.color12,
-                constant   = palette.color10,
-                identifier = palette.color3,
-                parameter  = palette.color10,
-                fun        = palette.color3,
-                statement  = palette.color6,
-                keyword    = palette.color5,
-                operator   = palette.color13,
-                preproc    = palette.color12,
-                type       = palette.color4,
-                regex      = palette.color11,
-                deprecated = palette.color8,
-                punct      = palette.color3,
-                comment    = palette.color8,
-                special1   = palette.color11,
-                special2   = palette.color11,
-                special3   = palette.color11,
+                number     = palette.colorKC5,
+                constant   = palette.colorKC7,
+                identifier = palette.colorKC4,
+                parameter  = palette.colorKC9,
+                fun        = palette.colorKC10,
+                statement  = palette.colorKC4,
+                keyword    = palette.colorKC8,
+                operator   = palette.colorKC2,
+                preproc    = palette.colorKC5,
+                type       = palette.colorKC4,
+                regex      = palette.colorKC7,
+                deprecated = palette.colorKC9,
+                punct      = palette.colorKC10,
+                comment    = palette.colorKC6,
+                special1   = palette.colorKC2,
+                special2   = palette.colorKC2,
+                special3   = palette.colorKC2,
             },
             diag = {
                 error   = palette.samuraiRed,
@@ -495,7 +495,7 @@ return {
                 palette.color12, -- bright blue
                 palette.color13, -- bright magenta
                 palette.color14, -- bright cyan
-                palette.color15, -- bright white
+                palette.dragonWhite, -- bright white
                 palette.dragonOrange, -- extended color 1
                 palette.dragonOrange2, -- extended color 2
             },
