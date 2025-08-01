@@ -449,7 +449,7 @@ return {
                 parameter  = palette.color10,
                 fun        = palette.color3,
                 statement  = palette.color6,
-                keyword    = palette.shield,
+                keyword    = palette.leaves,
                 operator   = palette.color8,
                 preproc    = palette.color12,
                 type       = palette.color4,
